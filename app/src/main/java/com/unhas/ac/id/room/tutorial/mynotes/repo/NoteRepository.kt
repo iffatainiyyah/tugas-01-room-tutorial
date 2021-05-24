@@ -3,8 +3,8 @@ package com.unhas.ac.id.room.tutorial.mynotes.repo
 import android.app.Application
 import androidx.lifecycle.LiveData
 import com.unhas.ac.id.room.tutorial.mynotes.db.AppDatabase
-import com.unhas.ac.id.room.tutorial.mynotes.db.Note
-import com.unhas.ac.id.room.tutorial.mynotes.db.NoteDao
+import com.unhas.ac.id.room.tutorial.mynotes.note.Note
+import com.unhas.ac.id.room.tutorial.mynotes.note.NoteDao
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

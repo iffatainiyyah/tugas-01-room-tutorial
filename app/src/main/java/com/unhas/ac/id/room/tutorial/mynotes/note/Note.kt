@@ -1,4 +1,4 @@
-package com.unhas.ac.id.room.tutorial.mynotes.db
+package com.unhas.ac.id.room.tutorial.mynotes.note
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

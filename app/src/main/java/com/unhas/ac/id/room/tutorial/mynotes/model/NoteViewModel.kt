@@ -3,7 +3,7 @@ package com.unhas.ac.id.room.tutorial.mynotes.model
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import com.unhas.ac.id.room.tutorial.mynotes.db.Note
+import com.unhas.ac.id.room.tutorial.mynotes.note.Note
 import com.unhas.ac.id.room.tutorial.mynotes.repo.NoteRepository
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
