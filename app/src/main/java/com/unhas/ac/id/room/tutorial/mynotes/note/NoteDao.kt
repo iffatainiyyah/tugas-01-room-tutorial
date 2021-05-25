@@ -2,7 +2,7 @@ package com.unhas.ac.id.room.tutorial.mynotes.note
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.unhas.ac.id.room.tutorial.mynotes.note.Note
+
 
 @Dao
 interface NoteDao {
