@@ -1,13 +1,13 @@
 package com.unhas.ac.id.room.tutorial.mynotes.db
 
 import android.content.Context
-import android.provider.ContactsContract
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.unhas.ac.id.room.tutorial.mynotes.note.Note
 import com.unhas.ac.id.room.tutorial.mynotes.note.NoteDao
 
-@Database(entities = [ContactsContract.CommonDataKinds.Note::class], exportSchema = false, version = 1)
+@Database(entities = [Note::class], exportSchema = false, version = 1)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun noteDao(): NoteDao
 
